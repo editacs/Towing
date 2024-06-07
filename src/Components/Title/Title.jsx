@@ -1,13 +1,12 @@
-import React from 'react';
-import Title from './components/Title';  // Assuming Title is in the components folder
+import './Title.css'
 
-function HomePage() {
+const Title = ({subTitle, title}) => {
   return (
-    <div>
-      <Title title="Home" subTitle="Welcome to our website!" />
-      {/* other content */}
+    <div className='title'>
+      <p>{subTitle}</p>
+      <h2>{title}</h2>
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default Title
