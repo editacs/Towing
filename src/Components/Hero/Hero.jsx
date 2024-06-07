@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-text">
         <h1>Experience top-tier roadside assistance with TowTech.</h1>
         <p>Our team delivers prompt, reliable service 24/7. Count on us for transparent pricing and customer satisfaction.</p>
-        <a href="https://github.com/yourusername/yourproject" className='btn'> {/* Update this URL */}
+        <a href="https://www.tiktok.com/@towtech.solutions" className='btn'>
           Explore more <img src={dark_arrow} alt="Navigate" />
         </a>
       </div>
@@ -17,4 +17,3 @@ const Hero = () => {
 }
 
 export default Hero;
-
