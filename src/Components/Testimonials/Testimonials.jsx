@@ -46,7 +46,6 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_2} alt="" />
                         <div>
                             <h3>Michael L.</h3>
                             <span>Commercial Towing</span>
@@ -58,7 +57,6 @@ const slideBackward = ()=>{
             <li>
                 <div className="slide">
                     <div className="user-info">
-                        <img src={user_3} alt="" />
                         <div>
                             <h3>Emily B.</h3>
                             <span>Accident Towing</span>
