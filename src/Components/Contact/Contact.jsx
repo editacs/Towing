@@ -33,7 +33,7 @@ const Contact = () => {
                 <p>Feel free to reach out through the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our community.</p>
                 <ul>
                     <li><img src={mail_icon} alt="Mail Icon" />towtechsolutionsinc@gmail.com</li>
-                    <li><img src={phone_icon} alt="Phone Icon" />(818) 738-8664</li>
+                    <li><img src={phone_icon} alt="Phone Icon" />(818) 698-9998</li>
                     <li><img src={location_icon} alt="Location Icon" /> Los Angeles, CA , United States</li>
                 </ul>
             </div>
