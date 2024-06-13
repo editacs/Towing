@@ -28,7 +28,7 @@ const Programs = () => {
         <img src={program_3} alt="" />
         <div className="caption">
             <img src={program_icon_3} alt="" />
-            <p>Accident Towing</p>
+            <p>Exotic Towing</p>
         </div>
       </div>
     </div>
