@@ -1,4 +1,4 @@
-import React from 'react'
+xoticimport React from 'react'
 import './Programs.css'
 import program_1 from '../../assets/program-1.png'
 import program_2 from '../../assets/program-2.png'
@@ -21,7 +21,7 @@ const Programs = () => {
         <img src={program_2} alt="" />
         <div className="caption">
             <img src={program_icon_2} alt="" />
-            <p>Commercial Towing</p>
+            <p>Exotic Towing</p>
         </div>
       </div>
       <div className="program">
