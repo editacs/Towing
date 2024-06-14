@@ -14,7 +14,7 @@ import img_6612 from '../../assets/IMG_6128.jpg'
 import img_6612 from '../../assets/IMG_6146.jpg'
 import img_6612 from '../../assets/IMG_6168.jpg'
 import img_6612 from '../../assets/IMG_6365.jpg'
-import img_6612 from '../../assets/IMG_6158.jpg'
+import img_6612 from '../../assets/IMG_6658.jpg'
 const Campus = () => {
   return (
     <div className='campus'>
@@ -37,7 +37,7 @@ const Campus = () => {
         <img src={img_6612} alt="IMG 6146" />
         <img src={img_6612} alt="IMG 6168" />
         <img src={img_6612} alt="IMG 6365" />
-        <img src={img_6612} alt="IMG 6158" />
+        <img src={img_6612} alt="IMG 6658" />
       </div>
     </div>
   )
