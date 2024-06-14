@@ -9,7 +9,12 @@ import img_6013 from '../../assets/IMG_6013.jpg'
 import img_6517 from '../../assets/IMG_6517.jpg'
 import img_6115 from '../../assets/IMG_6115.jpg'
 import img_6612 from '../../assets/IMG_6612.jpg'
-
+import img_6612 from '../../assets/IMG_6119.jpg'
+import img_6612 from '../../assets/IMG_6128.jpg'
+import img_6612 from '../../assets/IMG_6146.jpg'
+import img_6612 from '../../assets/IMG_6168.jpg'
+import img_6612 from '../../assets/IMG_6365.jpg'
+import img_6612 from '../../assets/IMG_6158.jpg'
 const Campus = () => {
   return (
     <div className='campus'>
@@ -27,6 +32,12 @@ const Campus = () => {
         <img src={img_6517} alt="IMG 6517" />
         <img src={img_6115} alt="IMG 6115" />
         <img src={img_6612} alt="IMG 6612" />
+        <img src={img_6612} alt="IMG 6119" />
+        <img src={img_6612} alt="IMG 6128" />
+        <img src={img_6612} alt="IMG 6146" />
+        <img src={img_6612} alt="IMG 6168" />
+        <img src={img_6612} alt="IMG 6365" />
+        <img src={img_6612} alt="IMG 6158" />
       </div>
     </div>
   )
