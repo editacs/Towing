@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Campus.css';
 import gallery_1 from '../../assets/gallery-1.png';
 import gallery_2 from '../../assets/gallery-2.png';
@@ -16,6 +16,12 @@ import img_6365 from '../../assets/IMG_6365.jpg';
 import img_6658 from '../../assets/IMG_6658.jpg';
 
 const Campus = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMore = () => {
+    setShowMore(!showMore);
+  }
+
   return (
     <div className='campus'>
       <div className="gallery">
@@ -24,20 +30,24 @@ const Campus = () => {
         <img src={gallery_3} alt="Gallery 3" />
         <img src={gallery_4} alt="Gallery 4" />
       </div>
-      <a href="#picture-section" className='btn dark-btn'>See more here <img src={white_arrow} alt="Arrow" /></a>
+      <button onClick={handleShowMore} className='btn dark-btn'>
+        See more here <img src={white_arrow} alt="Arrow" />
+      </button>
 
-      <div id="picture-section" className="picture-section">
-        <h2>More Pictures</h2>
-        <img src={img_6013} alt="IMG 6013" />
-        <img src={img_6517} alt="IMG 6517" />
-        <img src={img_6115} alt="IMG 6115" />
-        <img src={img_6119} alt="IMG 6119" />
-        <img src={img_6128} alt="IMG 6128" />
-        <img src={img_6146} alt="IMG 6146" />
-        <img src={img_6168} alt="IMG 6168" />
-        <img src={img_6365} alt="IMG 6365" />
-        <img src={img_6658} alt="IMG 6658" />
-      </div>
+      {showMore && (
+        <div id="picture-section" className="picture-section">
+          <h2>More Pictures</h2>
+          <img src={img_6013} alt="IMG 6013" />
+          <img src={img_6517} alt="IMG 6517" />
+          <img src={img_6115} alt="IMG 6115" />
+          <img src={img_6119} alt="IMG 6119" />
+          <img src={img_6128} alt="IMG 6128" />
+          <img src={img_6146} alt="IMG 6146" />
+          <img src={img_6168} alt="IMG 6168" />
+          <img src={img_6365} alt="IMG 6365" />
+          <img src={img_6658} alt="IMG 6658" />
+        </div>
+      )}
     </div>
   );
 }
