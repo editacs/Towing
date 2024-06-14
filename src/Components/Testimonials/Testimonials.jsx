@@ -48,7 +48,7 @@ const slideBackward = ()=>{
                     <div className="user-info">
                         <div>
                             <h3>Michael L.</h3>
-                            <span>Commercial Towing</span>
+                            <span>Exotic Towing</span>
                         </div>
                     </div>
                     <p>I can't thank TowTech enough for their help after my car broke down on the highway. The driver was friendly, professional, and got me safely to the nearest repair shop in no time.</p>
